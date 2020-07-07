@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UsernameConfig {
-	private int minLength;
-	private int maxLength;
+public class User {
+	private String username;
+	private String password;
 }
